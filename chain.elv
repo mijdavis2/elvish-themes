@@ -294,7 +294,7 @@ var find-all-user-repos = {
   fd -H -I -t d '^.git$' ~ | each $path:dir~
 }
 
-var summary-repos-file = ~/.elvish/package-data/elvish-themes/chain-summary-repos.json
+var summary-repos-file = ~/.config/elvish/package-data/elvish-themes/chain-summary-repos.json
 
 var summary-repos = []
 
